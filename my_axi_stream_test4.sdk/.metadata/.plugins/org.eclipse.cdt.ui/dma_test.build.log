@@ -1,0 +1,16 @@
+17:19:02 **** Auto Build of configuration Debug for project dma_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../dma_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:80:10: fatal error: xaxidma.h: No such file or directory
+ #include "xaxidma.h"
+          ^~~~~~~~~~~
+compilation terminated.
+make: *** [src/helloworld.o] Error 1
+src/subdir.mk:27: recipe for target 'src/helloworld.o' failed
+
+17:19:03 Build Finished (took 412ms)
+

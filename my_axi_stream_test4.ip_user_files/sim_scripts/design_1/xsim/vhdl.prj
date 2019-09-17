@@ -1,0 +1,14 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_axi_dma_0_0/sim/design_1_axi_dma_0_0.vhd" \
+"../../../bd/design_1/ipshared/fd80/hdl/my_axi_stream_master_v4_0_M00_AXIS.vhd" \
+"../../../bd/design_1/ipshared/fd80/hdl/my_axi_stream_master_v4_0.vhd" \
+"../../../bd/design_1/ip/design_1_my_axi_stream_master_0_0/sim/design_1_my_axi_stream_master_0_0.vhd" \
+"../../../bd/design_1/ipshared/da49/src/btn_debounce.vhd" \
+"../../../bd/design_1/ipshared/da49/src/data_generator.vhd" \
+"../../../bd/design_1/ip/design_1_data_generator_0_0/sim/design_1_data_generator_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/sim/bd_afc3_psr_aclk_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/sim/design_1_axi_smc_0.vhd" \
+"../../../bd/design_1/ip/design_1_rst_ps7_0_102M_0/sim/design_1_rst_ps7_0_102M_0.vhd" \
+"../../../bd/design_1/sim/design_1.vhd" \
+
+nosort

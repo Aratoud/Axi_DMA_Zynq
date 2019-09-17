@@ -1,0 +1,20 @@
+15:16:25 INFO  : Registering command handlers for SDK TCF services
+15:16:26 INFO  : Launching XSCT server: xsct -n -interactive /home/umram/my_axi_stream_test4/my_axi_stream_test4.sdk/temp_xsdb_launch_script.tcl
+15:16:28 INFO  : XSCT server has started successfully.
+15:16:28 INFO  : Successfully done setting XSCT server connection channel  
+15:16:28 INFO  : Successfully done setting SDK workspace  
+15:16:28 INFO  : Processing command line option -hwspec /home/umram/my_axi_stream_test4/my_axi_stream_test4.sdk/design_1_wrapper.hdf.
+17:11:29 INFO  : Registering command handlers for SDK TCF services
+17:11:30 INFO  : Launching XSCT server: xsct -n -interactive /home/umram/my_axi_stream_test4/my_axi_stream_test4.sdk/temp_xsdb_launch_script.tcl
+17:11:32 INFO  : XSCT server has started successfully.
+17:11:32 INFO  : Successfully done setting XSCT server connection channel  
+17:11:33 INFO  : Successfully done setting SDK workspace  
+17:11:33 INFO  : Processing command line option -hwspec /home/umram/my_axi_stream_test4/my_axi_stream_test4.sdk/design_1_wrapper.hdf.
+17:11:33 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+17:11:36 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1566222806000,  Project:1566216397000
+17:11:36 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from /home/umram/my_axi_stream_test4/my_axi_stream_test4.sdk/design_1_wrapper.hdf.
+17:11:36 INFO  : Copied contents of /home/umram/my_axi_stream_test4/my_axi_stream_test4.sdk/design_1_wrapper.hdf into /design_1_wrapper_hw_platform_0/system.hdf.
+17:11:38 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:11:40 INFO  : 
+17:11:40 INFO  : Updating hardware inferred compiler options for axi_polling.
+17:11:40 INFO  : Clearing existing target manager status.
