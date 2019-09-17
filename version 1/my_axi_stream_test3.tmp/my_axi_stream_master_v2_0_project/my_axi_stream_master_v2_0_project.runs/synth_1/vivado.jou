@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jul 26 14:05:18 2019
+# Process ID: 6368
+# Current directory: /home/umram/my_axi_stream_test3/my_axi_stream_test3.tmp/my_axi_stream_master_v2_0_project/my_axi_stream_master_v2_0_project.runs/synth_1
+# Command line: vivado -log my_axi_stream_master_v2_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source my_axi_stream_master_v2_0.tcl
+# Log file: /home/umram/my_axi_stream_test3/my_axi_stream_test3.tmp/my_axi_stream_master_v2_0_project/my_axi_stream_master_v2_0_project.runs/synth_1/my_axi_stream_master_v2_0.vds
+# Journal file: /home/umram/my_axi_stream_test3/my_axi_stream_test3.tmp/my_axi_stream_master_v2_0_project/my_axi_stream_master_v2_0_project.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source my_axi_stream_master_v2_0.tcl -notrace

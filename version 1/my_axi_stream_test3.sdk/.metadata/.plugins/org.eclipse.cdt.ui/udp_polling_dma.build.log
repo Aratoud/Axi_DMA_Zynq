@@ -1,0 +1,26 @@
+14:37:26 **** Auto Build of configuration Debug for project udp_polling_dma ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../udp_polling_dma_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:48:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x01000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+  ^~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: udp_polling_dma.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../udp_polling_dma_bsp/ps7_cortexa9_0/lib -o "udp_polling_dma.elf"  ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o ./src/udp_perf_client.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+Finished building target: udp_polling_dma.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size udp_polling_dma.elf  |tee "udp_polling_dma.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 145788	   3496	31578400	31727684	1e42044	udp_polling_dma.elf
+Finished building: udp_polling_dma.elf.size
+ 
+
+14:37:27 Build Finished (took 970ms)
+

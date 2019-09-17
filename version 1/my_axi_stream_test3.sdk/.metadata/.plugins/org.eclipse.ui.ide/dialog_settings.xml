@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/umram/my_axi_stream_test3/my_axi_stream_test3.sdk/polling_axi_dma_bsp"/>
+		<item value="/home/umram/my_axi_stream_test3/my_axi_stream_test3.sdk/polling_axi_dma"/>
+		<item value="/home/umram/my_axi_stream_test3/my_axi_stream_test3.sdk/fsbl_bsp"/>
+		<item value="/home/umram/my_axi_stream_test3/my_axi_stream_test3.sdk/fsbl"/>
+		<item value="/home/umram/my_axi_stream_test3/my_axi_stream_test3.sdk/simple_axi_dma_driver_bsp"/>
+		<item value="/home/umram/my_axi_stream_test3/my_axi_stream_test3.sdk/simple_axi_dma_driver"/>
+	</list>
+</section>
