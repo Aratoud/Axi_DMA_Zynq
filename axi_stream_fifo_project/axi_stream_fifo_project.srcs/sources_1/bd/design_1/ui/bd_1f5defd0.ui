@@ -1,0 +1,36 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 7 -x 2520 -y 80 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 7 -x 2520 -y 100 -defaultsOSRD
+preplace portBus Data_In_0 -pg 1 -lvl 0 -x -50 -y 110 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 2 -x 650 -y 180 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 5 -x 1940 -y 130 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 3 -x 1100 -y 120 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 4 -x 1500 -y 80 -defaultsOSRD
+preplace inst rst_ps7_0_102M -pg 1 -lvl 4 -x 1500 -y 290 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 6 -x 2350 -y 220 -defaultsOSRD
+preplace inst sample_generator_0 -pg 1 -lvl 1 -x 110 -y 130 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 5 260 270 790 230 1290 160 1690 280 2190J
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 3 3 1320 400 N 400 2170
+preplace netloc rst_ps7_0_102M_peripheral_aresetn 1 0 6 -20 210 240 90 780 220 1300 390 1680 300 2200
+preplace netloc processing_system7_0_FCLK_CLK2 1 0 6 -30 220 250 280 NJ 280 1310J 190 1680J 290 2180
+preplace netloc Data_In_0_1 1 0 1 N 110
+preplace netloc axi_dma_0_s2mm_introut 1 3 2 1280 170 NJ
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 5 800 410 NJ 410 NJ 410 NJ 410 2500
+preplace netloc axis_data_fifo_0_M_AXIS 1 2 1 770 100n
+preplace netloc axi_smc_M00_AXI 1 4 1 1690 80n
+preplace netloc axi_dma_0_M_AXI_S2MM 1 3 1 1280J 60n
+preplace netloc processing_system7_0_DDR 1 5 2 N 40 2500
+preplace netloc processing_system7_0_FIXED_IO 1 5 2 2190 100 N
+preplace netloc processing_system7_0_M_AXI_GP0 1 5 1 2170 100n
+preplace netloc sample_generator_0_M_AXIS 1 1 1 260 130n
+levelinfo -pg 1 -50 110 650 1100 1500 1940 2350 2520
+pagesize -pg 1 -db -bbox -sgen -210 -400 2640 540
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_ps7_cnt":"1"
+}

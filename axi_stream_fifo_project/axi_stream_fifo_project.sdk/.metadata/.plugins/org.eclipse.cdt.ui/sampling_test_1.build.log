@@ -1,0 +1,30 @@
+13:22:31 **** Incremental Build of configuration Debug for project sampling_test_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sampling_test_1_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:57:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+../src/helloworld.c:56:6: warning: unused variable 'values' [-Wunused-variable]
+  int values[20];
+      ^~~~~~
+Finished building: ../src/helloworld.c
+ 
+Building target: sampling_test_1.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sampling_test_1_bsp/ps7_cortexa9_0/lib -o "sampling_test_1.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: sampling_test_1.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size sampling_test_1.elf  |tee "sampling_test_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29492	   1544	  23256	  54292	   d414	sampling_test_1.elf
+Finished building: sampling_test_1.elf.size
+ 
+
+13:22:31 Build Finished (took 461ms)
+

@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+org.eclipse.debug.ui.MemoryView.RenderingViewPane.1=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<persistedMemoryRenderings>\n<memoryRendering memoryBlock\="1129685394" renderingId\="org.eclipse.debug.ui.rendering.hexint"/>\n<memoryRendering memoryBlock\="1492631200" renderingId\="org.eclipse.debug.ui.rendering.hexint"/>\n</persistedMemoryRenderings>\n
+org.eclipse.debug.ui.MemoryView.orientation=0
+org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<launchPerspectives/>\n
+org.eclipse.debug.ui.memory.columnSize\:org.eclipse.tcf.debug=4
+org.eclipse.debug.ui.memory.rowSize\:org.eclipse.tcf.debug=16
+preferredDetailPanes=DefaultDetailPane\:DefaultDetailPane|
+preferredTargets=org.eclipse.cdt.debug.ui.toggleCBreakpointTarget,org.eclipse.cdt.debug.ui.toggleCDynamicPrintfTarget,org.eclipse.tcf.debug.toggleTCFBreakpoint\:org.eclipse.tcf.debug.toggleTCFBreakpoint|org.eclipse.cdt.debug.ui.toggleCBreakpointTarget,org.eclipse.cdt.debug.ui.toggleCDynamicPrintfTarget\:org.eclipse.cdt.debug.ui.toggleCBreakpointTarget|org.eclipse.tcf.debug.toggleTCFBreakpoint\:org.eclipse.tcf.debug.toggleTCFBreakpoint|

@@ -1,0 +1,12 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|               clk_fpga_0 |               clk_fpga_2 |                                                  design_1_i/sample_generator_0/U0/data_in_signal_reg[0]/R|
+|               clk_fpga_0 |               clk_fpga_2 |                                                  design_1_i/sample_generator_0/U0/data_in_signal_reg[1]/R|
+|               clk_fpga_0 |               clk_fpga_2 |                                                  design_1_i/sample_generator_0/U0/data_in_signal_reg[2]/R|
+|               clk_fpga_0 |               clk_fpga_2 |                                                  design_1_i/sample_generator_0/U0/data_in_signal_reg[3]/R|
+|               clk_fpga_0 |               clk_fpga_2 |                                                  design_1_i/sample_generator_0/U0/data_in_signal_reg[4]/R|
+|               clk_fpga_0 |               clk_fpga_2 |                                                  design_1_i/sample_generator_0/U0/data_in_signal_reg[7]/R|
+|               clk_fpga_0 |               clk_fpga_2 |                                                  design_1_i/sample_generator_0/U0/data_in_signal_reg[5]/R|
+|               clk_fpga_0 |               clk_fpga_2 |                                                  design_1_i/sample_generator_0/U0/data_in_signal_reg[6]/R|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# 
+# Start of session at: Tue Jul  9 18:13:06 2019
+# Process ID: 13915
+# Current directory: /home/umram/Vivado_Projects/vivado/axi_stream_fifo_project/axi_stream_fifo_project.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/umram/Vivado_Projects/vivado/axi_stream_fifo_project/axi_stream_fifo_project.sdk/webtalk/webtalk.log
+# Journal file: /home/umram/Vivado_Projects/vivado/axi_stream_fifo_project/axi_stream_fifo_project.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

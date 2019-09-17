@@ -1,0 +1,2 @@
+15:44:43 INFO  : Registering command handlers for SDK TCF services
+15:44:43 INFO  : Launching XSCT server: xsct -n -interactive /home/umram/Vivado_Projects/vivado/custom_axi_fifo_vivado_2016/custom_axi_fifo_vivado_2016.sdk/temp_xsdb_launch_script.tcl
