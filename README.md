@@ -20,7 +20,7 @@ It must be noted that for test purposes the data were acquired from switches pla
 
 ## Authors
 
-* **Amirhossein Maghsoudi** - *Initial work* - [Aratoud](https://github.com/Aratoud)
+* **Amirhossein Maghsoudi** - [Aratoud](https://github.com/Aratoud)
 
 ## License
 
